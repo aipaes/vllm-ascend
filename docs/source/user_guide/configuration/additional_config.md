@@ -75,6 +75,7 @@ The details of each configuration option are as follows:
 | Name | Type | Default | Description |
 | ---- | ---- | ------- | ----------- |
 | `fuse_norm_quant`  | bool | `True` | Whether to enable fuse_norm_quant pass. |
+| `fuse_qknorm`      | bool | `False` | Whether to enable qknorm fusion optimization. |
 | `fuse_qknorm_rope` | bool | `False` | Whether to enable fuse_qknorm_rope pass. It's set to True by default when Triton is installed. |
 
 **eplb_config**
